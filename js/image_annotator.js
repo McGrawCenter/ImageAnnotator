@@ -29,11 +29,11 @@ jQuery( document ).ready(function() {
 	jQuery("#myimg").mouseover(function() {
 	  jQuery(".imganno_marker").show();
 	});
-/*
+
 	jQuery("#myimg").mouseout(function() {
 	  jQuery(".imganno_marker").hide();
 	});
-*/
+
 	jQuery(".imganno_marker").mouseover(function() {
 	  var id = jQuery(this).attr("id");
 	  jQuery(".imganno_marker").show();
