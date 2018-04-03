@@ -1,0 +1,74 @@
+
+.draggable {
+  position:absolute;
+  top:0px;
+  border:solid 1px black;
+
+
+  background:#a33;
+  border-radius:16px;
+  padding:4px 8px;
+  font-size:14px;
+  font-weight:bold;
+  color:white;
+  box-shadow: 1px 1px 1px #333;
+  text-align:center;
+
+    cursor: move; /* fallback if grab cursor is unsupported */
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+
+.draggable:active { 
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}
+
+
+.imganno_marker {
+  position:absolute;
+  top:0px;
+  border:solid 1px black;
+  background:#a33;
+  border-radius:18px;
+  width:30px;
+  padding:4px 8px;
+  font-size:14px;
+  font-weight:bold;
+  color:white;
+  box-shadow: 1px 1px 1px #333;
+  text-align:center;
+  cursor: pointer;
+}
+
+.marker_highlight {
+  background:#800 !important;
+}
+.footnote_highlight {
+  background:#EEE !important;
+}
+
+.annotation_popup {
+  width:320px;
+  height: 300px;
+  padding:5px 10px;
+  background:white;
+  border:solid 1px grey;
+  top:0px;
+  left:0px;
+  z-index:99;
+  border-radius: 5px;
+  font-size:0.8em;
+  line-height:1.4em;
+}
+.annotation_popup_header {
+  text-align:right;
+  margin-bottom:10px;
+}
+.annotation_popup_content {
+  height: 260px;
+  overflow-y: auto;
+  padding-right:10px;
+}
