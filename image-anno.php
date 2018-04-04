@@ -64,7 +64,7 @@ function annotated_image_shortcode( $atts ){
 
 	
 
-	$html .= "<img id='myimg' src='{$attachment_url}' style='width:500px' />";
+	$html .= "<img id='myimg' src='{$attachment_url}' style='width:100%' />";
 
 	if($display_type == 'footnote') {
 
