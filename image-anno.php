@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Image Anno
+Plugin Name: Princeton Image Annotator
 Plugin URI: http://www.princeton.edu
 Description:
 Version: 1.0
