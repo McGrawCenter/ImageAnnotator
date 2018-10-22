@@ -217,7 +217,7 @@ function ImgAnno_book_cover_metabox ( $post ) {
 		$content_width = $old_content_width;
 	} else {
 
-		$content = '<img src="" style="width:' . esc_attr( $content_width ) . 'px;height:auto;border:0;display:none;" />';
+		$content = '<img id="my_img" src="" style="width:' . esc_attr( $content_width ) . 'px;height:auto;border:0;display:none;" />';
 		$content .= '<p class="hide-if-no-js"><a title="' . esc_attr__( 'Set annotated image', 'text-domain' ) . '" href="javascript:;" id="upload_annotated_image_button" id="set-listing-image" data-uploader_title="' . esc_attr__( 'Choose an image', 'text-domain' ) . '" data-uploader_button_text="' . esc_attr__( 'Set Annotated Image', 'text-domain' ) . '">' . esc_html__( 'Set annotated image', 'text-domain' ) . '</a></p>';
 		$content .= '<input type="hidden" id="upload_annotated_image" name="annotated_image" value="" />';
 
