@@ -142,9 +142,9 @@ jQuery( document ).ready(function() {
 		  var attachment = file_frame.state().get('selection').first().toJSON();
 		  jQuery("#"+field_id).val(attachment.id);
 
-		  jQuery("#img_frame img").attr('src',attachment.url);
+		  jQuery("#img_frame").attr('src',attachment.url);
 		  jQuery("#_imganno_img").val(attachment.id);
-		  jQuery( '#img_frame img' ).show();
+		  jQuery( '#img_frame' ).show();
 		  jQuery( '#' + button_id ).attr( 'id', 'remove_annotation_image_button' );
 		  jQuery( '#remove_annotation_image_button' ).text( 'Remove annotated image' );
 		});
